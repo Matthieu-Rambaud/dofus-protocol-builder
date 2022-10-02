@@ -4,9 +4,9 @@
   "description": "Build & Compile dofus network protocol in javascript with files extractions.",
   "main": "index.js",
   "scripts": {
-    "extract" : "node index.js -c extract",
-    "build" : "node index.js -c build",
-    "compile" : "node index.js -c compile",
+    "extract": "node index.js -c extract",
+    "build": "node index.js -c build",
+    "compile": "node index.js -c compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,9 +34,11 @@
     "commander": "^2.8.1",
     "diff": "^1.4.0",
     "fs-extra": "^9.0.1",
-    "glob": "^5.0.10",
+    "glob": "^5.0.15",
     "js-beautify": "^1.5.6",
+    "package-lock.json": "^1.0.0",
+    "package.json": "^2.0.1",
     "syntax-error": "^1.1.4",
-    "underscore": "^1.8.3"
+    "underscore": "^1.13.1"
   }
 }
